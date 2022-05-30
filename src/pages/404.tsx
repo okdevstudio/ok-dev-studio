@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import NotFound from "../components/notFound";
 
 // styles
@@ -11,10 +12,14 @@ const pageStyles = {
 // markup
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <NotFound />
-    </main>
+    <React.Fragment>
+      <Helmet>
+        <title>Not Found</title>
+      </Helmet>
+      <main style={pageStyles}>
+        <NotFound />
+      </main>
+    </React.Fragment>
   );
 };
 
