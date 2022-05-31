@@ -1,17 +1,17 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 
-function FlappyBirdPolicy() {
+function DummyBirdPolicy() {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Privacy Policy | Flappy Bird</title>
+        <title>Privacy Policy | Dummy Bird</title>
         <meta name="description" content="Privacy Policy" />
       </Helmet>
       <main style={{ margin: "8px" }}>
         <strong>Privacy Policy</strong>
         <p>
-          Ok Dev built the Flappy Bird app as an Ad Supported app. This SERVICE
+          Ok Dev built the Dummy Bird app as an Ad Supported app. This SERVICE
           is provided by Ok Dev at no cost and is intended for use as is.
         </p>
         <p>
@@ -28,7 +28,7 @@ function FlappyBirdPolicy() {
         </p>
         <p>
           The terms used in this Privacy Policy have the same meanings as in our
-          Terms and Conditions, which are accessible at Flappy Bird unless
+          Terms and Conditions, which are accessible at Dummy Bird unless
           otherwise defined in this Privacy Policy.
         </p>
         <p>
@@ -187,4 +187,4 @@ function FlappyBirdPolicy() {
   );
 }
 
-export default FlappyBirdPolicy;
+export default DummyBirdPolicy;
